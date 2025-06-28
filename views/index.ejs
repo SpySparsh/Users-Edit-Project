@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #1e1e1e; color: #f5f5f5; font-family: Arial, sans-serif;  height: 100vh;">
+    <a href="/read" style="color: #007acc; text-decoration: none; font-size:large;">Read User =></a>
+    <!-- Main Form Container with Single Div -->
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div
+            style="width: 100%; max-width: 400px; background-color: #2d2d2d; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+            <h1 style="display: flex; justify-content: center; font-weight:lighter; color: #918686;">CREATE USER </h1>
+            <!-- Form Element -->
+            <form action="/create" method="post" style="display: flex; flex-direction: column; gap: 15px;">
+
+                <!-- Username Input Field -->
+                <input type="text" name="username" placeholder="Username" required
+                    style="padding: 10px; background-color: #3c3c3c; color: #f5f5f5; border: none; border-radius: 4px; font-size: 16px;">
+
+                <!-- Email Input Field -->
+                <input type="email" name="email" placeholder="Email" required
+                    style="padding: 10px; background-color: #3c3c3c; color: #f5f5f5; border: none; border-radius: 4px; font-size: 16px;">
+
+                <!-- Image URL Input Field -->
+                <input type="url" name="imageUrl" placeholder="Image URL" required
+                    style="padding: 10px; background-color: #3c3c3c; color: #f5f5f5; border: none; border-radius: 4px; font-size: 16px;">
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit"
+                    style="padding: 10px; background-color: #007acc; color: #f5f5f5; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
